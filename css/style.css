@@ -161,9 +161,19 @@ textarea {
   font-size: 2rem;
 }
 .btn--med {
-  padding: 1.5rem 5rem;
+  padding: 1.5rem 3rem;
   font-size: 1.6rem;
+  margin: 0 1rem;
 }
+
+@media only screen and (max-width: 56.25em) {
+  .btn--med {
+    padding: 1.5rem 3rem;
+    font-size: 1.6rem;
+    margin: 2rem 1rem;
+  }
+}
+
 .btn--theme {
   background: #0062b9;
   color: #fff;
@@ -185,7 +195,7 @@ textarea {
 }
 .text-primary {
   color: #fff;
-  font-size: 2.2rem;
+  font-size: 2rem;
   text-align: center;
   width: 100%;
   line-height: 1.6;
@@ -535,10 +545,12 @@ textarea {
   margin: 3rem auto 0 auto;
   max-width: 80rem;
 }
+
 .project-cs-hero__cta {
   margin-top: 5rem;
   text-align: center;
 }
+
 .project-details__content {
   padding: 8rem 0;
   max-width: 90rem;
