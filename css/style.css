@@ -362,6 +362,12 @@ textarea {
   -o-object-fit: cover;
   object-fit: cover;
 }
+
+.spe_img {
+  height: 120%;
+  object-fit: contain;
+}
+
 .projects__row-content {
   padding: 2rem 0;
   display: flex;
